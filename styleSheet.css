@@ -20,6 +20,12 @@ p{
     margin-left:2%;
     margin-right: auto;
 }
+#likeStyle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+}
 #pics{ 
 	text-align: center;
 	background-color:orange;
