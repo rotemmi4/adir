@@ -15,7 +15,6 @@ header{
     margin-right: auto;
     width: 13%;
 }
-
 p{
     font-size:25px;
     margin-left:2%;
@@ -35,7 +34,6 @@ p{
 #label{
     font-size:20px;
 }
-
 #playlist2{
 	border-width: 1px;
 	padding: 5px;
@@ -44,12 +42,6 @@ p{
 	background-color: rgb(154, 203, 243);
 	-moz-border-radius: 35px;
     border-radius: 35px;
-}
-#playframe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 13%;
 }
 #about2{   
 	text-align: left;
@@ -98,7 +90,6 @@ h4{
   .content {
     padding: 16px;
 }
-  
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
@@ -106,7 +97,6 @@ h4{
     width: 100%;
     
  }
-  
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     padding-top: 60px;
@@ -124,7 +114,6 @@ h4{
     width:70%; 
     height: 70%; 
 }
-  
 input[type=submit] {
 	background-color:  rgb(154, 203, 243);
 	color: #410c4e;
@@ -134,8 +123,7 @@ input[type=submit] {
     cursor: pointer;
     width:8%; 
     height: 70%; 
-}
-	
+}	
 input[type=reset] {
 		background-color:  rgb(154, 203, 243);
 		color: #410c4e;
