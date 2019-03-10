@@ -44,6 +44,10 @@ p{
 	background-color: rgb(154, 203, 243);
 	-moz-border-radius: 35px;
     border-radius: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
 }
 #about2{   
 	text-align: left;
