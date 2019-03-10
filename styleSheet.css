@@ -5,11 +5,15 @@ header{
     padding-bottom: 20px;
     text-shadow:5px 5px 5px rgb(5, 5, 5);
 }
-#adirmiller {
+#adirmiller{
     opacity: 0.5;
     filter: alpha(opacity=50); 
-  }
-.center {
+}
+.logo{
+	width: 60px;
+    float: left;
+}
+.center{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -81,40 +85,38 @@ h4{
     padding-bottom:5px;
 }
 /* Style the navbar */
-#navbar {
+#navbar{
     overflow: hidden;
     background-color: #333;
 }
   /* Navbar links */
-  #navbar a {
-	text-align: right;
+  #navbar a{
 	padding-top: 10px;
     font-size: 25px;
     color: white;
 	padding: 0px;
     margin: 10px;
+text-overflow: clip;
 }
   /* Page content */
-  .content {
+.content{
     padding: 16px;
 }
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
+.sticky{
     position: fixed;
     top: 0;
-    width: 100%;
-    
- }
+    width: 100%;  
+}
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
+.sticky + .content {
     padding-top: 60px;
 }
 #content{
     font-size:35px;
-    padding-top:20px;
-    
+    padding-top:20px;   
 }
-#navbar a:hover {
+#navbar a:hover{
 	background: #333;
     color: #1d04f8;
 }
@@ -122,7 +124,7 @@ h4{
     width:70%; 
     height: 70%; 
 }
-input[type=submit] {
+input[type=submit]{
 	background-color:  rgb(154, 203, 243);
 	color: #410c4e;
 	padding: 12px 20px;
@@ -132,7 +134,7 @@ input[type=submit] {
     width:8%; 
     height: 70%; 
 }	
-input[type=reset] {
+input[type=reset]{
 		background-color:  rgb(154, 203, 243);
 		color: #410c4e;
 		padding: 12px 20px;
@@ -142,7 +144,7 @@ input[type=reset] {
         width:8%; 
         height: 70%; 
 }
-input[type=email] {
+input[type=email]{
     padding: 5px;
     border-radius: 4px;
     border: none;
@@ -150,29 +152,28 @@ input[type=email] {
     width:20%; 
     height: 30%; 
 }
-input[type=submit]:hover {
+input[type=submit]:hover{
 	background-color: #1801e4;
-}
-	
+}	
 input[type=reset]:hover {
         background-color: #1801e4;
 }
-body {
+body{
     background: #e3e3e3;
-  }
-  .my-container {
+}
+.my-container{
       position: relative;
       background: rgba(92, 152, 255, 0.034);
       overflow: hidden;
-  }
-  .my-container h1 {
+}
+.my-container h1{
       padding: 100px;
       text-align: left;
       z-index: 2;
       position: relative;
       color: #fff;
-  } 
-  .my-container img {
+} 
+.my-container img{
       position: absolute;
       left: 0;
       top: 0;
@@ -180,4 +181,4 @@ body {
       height: 100%;
       z-index: 1;
       opacity: 0.6;
-  }
+}
