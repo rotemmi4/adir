@@ -110,15 +110,20 @@ h4{
   .sticky + .content {
     padding-top: 60px;
 }
-  #content{
-    font-size:25px;
-    padding-top: 10px;
+#content{
+    font-size:35px;
+    padding-top:20px;
     
 }
 #navbar a:hover {
 	background: #333;
     color: #1d04f8;
 }
+#content5{
+    width:70%; 
+    height: 70%; 
+}
+  
 input[type=submit] {
 	background-color:  rgb(154, 203, 243);
 	color: #410c4e;
@@ -164,7 +169,7 @@ body {
       overflow: hidden;
   }
   .my-container h1 {
-      padding: 50px;
+      padding: 100px;
       text-align: left;
       z-index: 2;
       position: relative;
@@ -179,5 +184,3 @@ body {
       z-index: 1;
       opacity: 0.6;
   }
-  
-  
