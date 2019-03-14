@@ -4,6 +4,7 @@ header{
     padding-top: 10px;
     padding-bottom: 20px;
     text-shadow:5px 5px 5px rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
 }
 #adirmiller{
     opacity: 0.5;
@@ -23,6 +24,7 @@ p{
     font-size:25px;
     margin-left:2%;
     margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #likeStyle{
     display: block;
@@ -36,21 +38,23 @@ p{
 	-moz-border-radius: 35px;
     border-radius: 35px;
 }
-#adir{
-    border-radius: 10px;
-	cursor: cell;
-	transition: 10s;
+#adirPics{
+	cursor: auto;
+    border-radius: 35px;
 }
 #label{
     font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #playlist2{
 	border-width: 1px;
 	padding: 5px;
 	margin: 20px;
-	text-align: center;
-	background-color: rgb(154, 203, 243);
-	-moz-border-radius: 35px;
+    background-color: rgb(154, 203, 243);
+    text-align: center;
+    border-radius: 35px;
+}
+#play{
     border-radius: 35px;
 }
 #about2{   
@@ -71,44 +75,43 @@ h2{
     line-height: 0.5;
 	-moz-border-radius: 35px;
     border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h3{
     font-size: 40px;
     text-align: center;
     padding-top: 0px;
     padding-bottom:5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h4{
     font-size: 25px;
     text-align: center;
     padding-top: 0px;
     padding-bottom:5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-/* Style the navbar */
 #navbar{
     overflow: hidden;
     background-color: #333;
+    text-align: right;
 }
-  /* Navbar links */
-  #navbar a{
+#navbar a{
 	padding-top: 10px;
     font-size: 25px;
     color: white;
 	padding: 0px;
     margin: 10px;
-text-overflow: clip;
+    font-family: Arial, Helvetica, sans-serif;
 }
-  /* Page content */
 .content{
     padding: 16px;
 }
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky{
     position: fixed;
     top: 0;
     width: 100%;  
 }
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 60px;
 }
@@ -172,6 +175,8 @@ body{
       z-index: 2;
       position: relative;
       color: #fff;
+      padding-left: 20px;
+      font-family: Arial, Helvetica, sans-serif;
 } 
 .my-container img{
       position: absolute;
